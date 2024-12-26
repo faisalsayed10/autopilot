@@ -11,7 +11,7 @@ import SwiftUI
 struct autopilotApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            AccessibilityView()
         }
     }
 }
