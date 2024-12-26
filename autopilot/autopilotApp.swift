@@ -12,6 +12,10 @@ struct autopilotApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .frame(minWidth: 300, minHeight: 200)
+                .background(.ultraThinMaterial)
         }
+        .windowStyle(.hiddenTitleBar)
+        .defaultSize(width: 300, height: 400)
     }
 }
